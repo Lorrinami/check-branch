@@ -1,0 +1,25 @@
+{
+  "name": "@duyongkang/check-branch",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "main": "src/index.js",
+  "bin": {
+    "@duyongkang/check-branch": "bin/check-branch",
+    "check-branch": "bin/check-branch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "requires": true,
+  "keywords": [
+    "cli",
+    "check-branch"
+  ],
+  "author": "duyongkang",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "esm": "^3.2.18",
+    "inquirer": "^8.2.0"
+  }
+}
